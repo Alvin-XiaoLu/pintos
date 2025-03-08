@@ -6,8 +6,8 @@ services:
     container_name: pintos
     stdin_open: true  
     tty: true         
-    restart: no       
-    #volumes:
-    # - [your_source_code_path]:/home/pintos
+    restart: "no"       
+    volumes:
+      - C:\Users\htht0\Desktop\Github\pintos:/home/pintos
     environment:
       - PINTOS_DIR=/home/pintos
